@@ -5,12 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
-    <header> </header>
-    <main class="apesentacao">
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+
+    <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong
                     class="titulo-destaque">com um Front-end de
@@ -33,9 +39,11 @@
                     Twitch</a>
             </div>
         </section>
-        <img src="assets/logo.png" alt="Felipe Image">
+        <img class="apresentacao__logo" src="assets/logo.png" alt="Felipe Image">
     </main>
-    <footer> </footer>
+    <footer class="rodape">
+        <p class="rodape__conteudo"> 2023 Felipe L. W. Vargas. Todos os direitos reservados.</p>
+    </footer>
 
 
 
